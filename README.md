@@ -10,5 +10,6 @@ Pipeline description:
 | Variables        		|     Values        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Lower Canny Edge filter thresholds         		|  		Lower=100, Upper=150				| 
-|:---------------------:|:---------------------------------------------:| 
-| Gaussian Blur Kernel size   	| kernel=3	|
+| Gaussian Blur 	| kernel=3	|
+| Vertical fraction 	| 40%	|
+| Hough Tranform |  rho = 2 , theta = np.pi/180 ,threshold = 15 , min_line_len =40,max_line_gap =20     |
