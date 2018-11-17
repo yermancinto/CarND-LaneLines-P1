@@ -3,6 +3,19 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
+My pipeline consisted of 5 steps:
+
+1) First, I converted the images to grayscale
+2) Apply Gaussian Smoothing
+3) Apply Canny edge detection
+4) Mask the image using the region of interest
+5)
+
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+
+If you'd like to include images to show how the pipeline works, here is how to include an image: 
+
+
 
 Pipeline description:
 1) Define the input vales:
