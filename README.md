@@ -9,7 +9,7 @@
 3) Apply Canny edge detection
 4) Mask the image using the region of interest
 
-![imagen](https://user-images.githubusercontent.com/41348711/48666242-30e80d00-eabe-11e8-85bc-59ca0f736a75.png)
+![imagen](https://user-images.githubusercontent.com/41348711/48666377-b371cc00-eac0-11e8-9442-f532238effb7.png)
 
 5) Create a blank to draw the lines on
 6) Apply Hough lines filter to the masked image
