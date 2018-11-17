@@ -24,6 +24,7 @@ the right side lines and -0.5 to -0.8 for the left side lines, so this will be u
 For the second part of the project (improve draw lines function) I built a new function
 called "draw_complete_lines":
 
+![imagen](https://user-images.githubusercontent.com/41348711/48666296-46116b80-eabf-11e8-9246-dfa5eeb476cc.png)
 
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
