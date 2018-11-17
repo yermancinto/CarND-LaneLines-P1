@@ -13,9 +13,16 @@ My pipeline consisted of 5 steps:
 ![imagen](https://user-images.githubusercontent.com/41348711/48666242-30e80d00-eabe-11e8-85bc-59ca0f736a75.png)
 
 5) Create a blank to draw the lines on
-6) Apply Hough lines filter to the masked image using the function "draw_lines":
+6) Apply Hough lines filter to the masked image.
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+For the first part of the project I used the function "draw_lines":
+
+![imagen](https://user-images.githubusercontent.com/41348711/48666286-f894fe80-eabe-11e8-8716-e49827fcd7fc.png)
+
+According to the images already processed, slopes are inside the ranges 0.5 to 0.8 for
+the right side lines and -0.5 to -0.8 for the left side lines, so this will be used as a filter.
+For the second part of the project (improve draw lines function) I built a new function
+called "draw_complete_lines":
 
 
 
