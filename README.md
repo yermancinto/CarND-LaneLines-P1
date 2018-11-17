@@ -1,7 +1,6 @@
 # **Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 My pipeline consisted of 5 steps:
 
@@ -13,21 +12,19 @@ My pipeline consisted of 5 steps:
 ![imagen](https://user-images.githubusercontent.com/41348711/48666242-30e80d00-eabe-11e8-85bc-59ca0f736a75.png)
 
 5) Create a blank to draw the lines on
-6) Apply Hough lines filter to the masked image.
+6) Apply Hough lines filter to the masked image
+7) Apply Hough lines filter to the masked image
 
-For the first part of the project I used the function "draw_lines":
+For the first part of the project I used the function "draw_lines". According to the images already processed, slopes are inside the ranges 0.5 to 0.8 for the right side lines and -0.5 to -0.8 for the left side lines, so this will be used as a filter.
+For the second part of the project (improve draw lines function) I built a new function called "draw_complete_lines".As every line is defined by a slope and x coordinate at the bottom of the image,median slope and median x coordinate are calculated for all the lines of each video frame of the video (with the slopes inside the ranges defined).
+An array is set to save previous slopes and x coordinate values. As the change from
+frame to frame in the video must be low and there is some noise I just used the
+previous value and added just 10% of the increment from frame to frame.
+I completed the code in order to cover all possible cases.
 
-![imagen](https://user-images.githubusercontent.com/41348711/48666286-f894fe80-eabe-11e8-8716-e49827fcd7fc.png)
+Identify potential shortcomings
+The code fails when tarmac changes color (e.g. on the challenge file)
 
-According to the images already processed, slopes are inside the ranges 0.5 to 0.8 for
-the right side lines and -0.5 to -0.8 for the left side lines, so this will be used as a filter.
-For the second part of the project (improve draw lines function) I built a new function
-called "draw_complete_lines":
-
-![imagen](https://user-images.githubusercontent.com/41348711/48666296-46116b80-eabf-11e8-9246-dfa5eeb476cc.png)
-
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
 
 
