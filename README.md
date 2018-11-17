@@ -9,6 +9,9 @@ My pipeline consisted of 5 steps:
 2) Apply Gaussian Smoothing
 3) Apply Canny edge detection
 4) Mask the image using the region of interest
+
+![imagen](https://user-images.githubusercontent.com/41348711/48666242-30e80d00-eabe-11e8-85bc-59ca0f736a75.png)
+
 5)
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
