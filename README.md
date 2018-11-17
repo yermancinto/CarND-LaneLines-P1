@@ -12,9 +12,12 @@ My pipeline consisted of 5 steps:
 
 ![imagen](https://user-images.githubusercontent.com/41348711/48666242-30e80d00-eabe-11e8-85bc-59ca0f736a75.png)
 
-5)
+5) Create a blank to draw the lines on
+6) Apply Hough lines filter to the masked image using the function "draw_lines":
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+
+
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
