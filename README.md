@@ -22,8 +22,9 @@ frame to frame in the video must be low and there is some noise I just used the
 previous value and added just 10% of the increment from frame to frame.
 I completed the code in order to cover all possible cases.
 
-Identify potential shortcomings
-The code fails when tarmac changes color (e.g. on the challenge file)
+## Potential shortcomings
+
+The weak point are the changes on lighting  (e.g. on the challenge file)
 
 
 
