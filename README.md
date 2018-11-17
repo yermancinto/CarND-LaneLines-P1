@@ -2,9 +2,9 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-My pipeline consisted of 5 steps:
+## My pipeline consisted of 7 steps:
 
-1) First, I converted the images to grayscale
+1) Convert the images to grayscale
 2) Apply Gaussian Smoothing
 3) Apply Canny edge detection
 4) Mask the image using the region of interest
